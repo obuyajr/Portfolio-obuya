@@ -8,3 +8,7 @@ Projects
 Skills
 Education
 Contact Information
+
+
+Skills
+In addition to my technical skills, I possess strong interpersonal and communication skills. I am a team player who enjoys working collaboratively to achieve project goals, and I am comfortable working in an Agile environment. I am also a quick learner who is always eager to take on new challenges.
