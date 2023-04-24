@@ -5,10 +5,14 @@ Welcome to my software engineering portfolio! This repository contains a collect
 Table of Contents
 Technologies and Tools
 Projects
+Driver fatigue alert system 
+Emechaniq
+
 Skills
+Backend dev-python-django
 Education
 Contact Information
-
+felix37brock@gmail.com 
 
 Skills
 In addition to my technical skills, I possess strong interpersonal and communication skills. I am a team player who enjoys working collaboratively to achieve project goals, and I am comfortable working in an Agile environment. I am also a quick learner who is always eager to take on new challenges.
