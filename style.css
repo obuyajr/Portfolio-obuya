@@ -27,11 +27,24 @@ body{
 }
 
 .logo{
+    position: relative;
     font-size: 30px;
     color: white;
     text-decoration: none;
     font-weight: 650;
 
+}
+
+.logo::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: .1s;
 }
 
 .navbar a{
@@ -61,28 +74,80 @@ body{
 }
 
 .home-content h1{
+    position: relative;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
 }
 
+.home-content h1::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
+}
+
 .home-content h3{
+    position: relative;
     font-size: 28px;
     font-weight: 700;
     color: #00abf0;
 }
 
+.home-content h3::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: .8s;
+}
 .home-content p{
+    position: relative;
     font-size: 18px;
     margin: 20px 0 40px;
 }
 
+.home-content p::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: .89s;
+}
+
 .home-content .btn-box{
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 350px;
     height: 50px;
     
+}
+
+.home-content .btn-box::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.0s;
+    z-index: 2;
 }
 
 .btn-box a{
@@ -138,3 +203,87 @@ body{
 .btn-box a:hover::before{
     width: 100%;
 }
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+    width:40px ;
+    height:40px ;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.home-sci::before{
+    content: '' ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.4s;
+    z-index: 2;
+}
+
+.home-sci a:hover{
+    color: #081b29;
+}
+
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-sci a:hover::before{
+    width: 100%;
+}
+
+/* KEYFRAME LOGO ANIMATION */
+
+@keyframes showRight {
+    100%{
+        width: 0;
+    }
+}
+/*  */
+/*  */
+/*  */
+/* sliding images buanna */
+/* Set the height and width of the carousel */
+/* Set the height and width of the carousel */
+.carousel-container {
+    width: 100px; /* Adjust the width of the carousel container as needed */
+  }
+  
+  .carousel-inner {
+    height: 100px; /* Adjust the height of the carousel as needed */
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
