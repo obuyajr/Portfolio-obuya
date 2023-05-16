@@ -275,15 +275,26 @@ body{
 /* sliding images buanna */
 /* Set the height and width of the carousel */
 /* Set the height and width of the carousel */
-.carousel-container {
-    width: 100px; /* Adjust the width of the carousel container as needed */
-  }
-  
-  .carousel-inner {
-    height: 100px; /* Adjust the height of the carousel as needed */
-  }
-  
-  .carousel-item img {
-    height: 100%;
-    object-fit: cover;
-  }
+.slide-frame{
+    overflow: hidden;
+    height: 400px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6rem;
+}
+
+.heading{
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    text-align: center;
+}
