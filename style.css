@@ -339,3 +339,37 @@ span{
 .about-content h3{
     font-size: 2.6rem;
 }
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+.btn-box.btns{
+    display: inline-block;
+    width: 15rem;
+}
+
+.education{
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.education .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.education-row .education-column{
+    flex: 2 2 120rem;
+}
+
+.education-column .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
